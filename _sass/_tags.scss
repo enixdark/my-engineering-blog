@@ -1,0 +1,10 @@
+.tags-page {
+  .tags-list {
+    margin-bottom: 40px;
+  }
+}
+
+.tags-label {
+  padding: 0.3em 0.6em;
+  @include bordered-element($brand-secondary-color);
+}

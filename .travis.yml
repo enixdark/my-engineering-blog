@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.3.4
+cache: bundler
+branches:
+  only:
+  - master
+install:
+- bundle install
+script:
+- git config --global user.email "travis@travis-ci.org"
+- git config --global user.name "Travis CI"
+- JEKYLL_ENV=production jgd -u https://$GITHUB_TOKEN@github.com/enixdark/my-engineering-blog.git

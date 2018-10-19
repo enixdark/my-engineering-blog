@@ -1,0 +1,273 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/**
+* Page content
+*/
+.page-content {
+  flex: 1;
+  padding: $spacing-unit 0;
+}
+
+.page-heading {
+  font-size: $giant-font-size;
+  margin: 30px 0;
+}
+
+
+/**
+* Posts List
+*/
+
+$post-author-thumbnail-size: 48px;
+$post-list-cover-photo-margin: 0 0 15px 0;
+
+.post-list {
+  $post-spacing: 50px;
+
+  font-size: 18px;
+  line-height: 1.5;
+  list-style: none;
+  margin-left: 0;
+
+  > li {
+    &:not(:last-child) {
+      border-bottom: 1px solid $grey-color-light;
+    }
+    &:first-child {
+      margin: $post-spacing/2 auto;
+    }
+    margin: $post-spacing auto;
+    padding-bottom: $post-spacing;
+  }
+
+  .post-author-thumbnail {
+    margin-top: -$post-author-thumbnail-size/2;
+  }
+
+  .cover-photo {
+    margin: $post-list-cover-photo-margin;
+  }
+}
+
+.post-meta-container {
+  display: inline-block;
+}
+
+.post-meta {
+  color: $grey-color;
+  display: block;
+  font-weight: $font-weight-light;
+  text-align: center;
+}
+
+.post-tags {
+  margin-top: 10px;
+}
+
+.post-author {
+  display: block;
+  font-size: $small-font-size;
+  padding-top: 5px;
+}
+
+.post-date {
+  color: $grey-color;
+  display: block;
+  font-size: $tiny-font-size;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+.post-author-thumbnail {
+  height: $post-author-thumbnail-size;
+  margin-right: 5px;
+  width: $post-author-thumbnail-size;
+}
+
+.post-author-thumbnail-large {
+  height: 96px;
+  width: 96px;
+}
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 40px;
+  font-weight: $font-weight-bold;
+  line-height: 1.2;
+
+  @include media-query($on-palm) {
+    font-size: 36px;
+  }
+}
+
+.post-image-section {
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 30px auto;
+  }
+
+  .post-image-caption {
+    font-size: $tiny-font-size;
+  }
+}
+
+a.post-title {
+  color: #000;
+
+  &:hover {
+    color: $brand-primary-color;
+    text-decoration: none;
+  }
+}
+
+/**
+* Single Post
+*/
+
+.post {
+  margin-top: 30px;
+}
+
+.post-content {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: $base-font-family-serif;
+  font-size: $base-font-size;
+  font-weight: $font-weight-normal;
+  line-height: 1.78;
+  margin-bottom: $spacing-unit;
+
+  @include media-query($on-palm) {
+    font-size: 18px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit * 2;
+  }
+
+  h2 {
+    font-size: 32px;
+
+    @include media-query($on-palm) {
+      font-size: 28px;
+    }
+  }
+
+  h3 {
+    font-size: 26px;
+
+    @include media-query($on-palm) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-palm) {
+      font-size: 18px;
+    }
+  }
+}
+
+hr.section-divider {
+  display: block;
+  border: 0;
+  text-align: center;
+  margin-bottom: 42px;
+  margin-top: 52px;
+
+  &:before {
+    color: rgba(0,0,0,.6);
+    content: '...';
+    display: inline-block;
+    font-family: $base-font-family-serif;
+    font-weight: $font-weight-normal;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: .6em;
+    margin-left: .6em;
+    position: relative;
+    top: -30px;
+  }
+}
+
+/**
+* Posts List Summary
+*/
+
+.posts-summary-list-item {
+  margin-bottom: 60px;
+}
+
+.posts-summary-list-title {
+  color: $brand-primary-color;
+  font-size: $large-font-size;
+  font-weight: $font-weight-normal;
+}
+
+.posts-summary-posts-list {
+  margin-left: 0;
+
+  li {
+    list-style: none;
+  }
+
+  .posts-summary-posts-list-item {
+    margin-bottom: 30px;
+
+    a {
+      color: #000;
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+.post-author-container {
+  margin-bottom: 10px;
+}
+
+.post-author-details {
+  display: inline-block;
+
+  .posts-summary-list-title {
+    margin-bottom: 0;
+  }
+}
+
+.posts-search-results {
+  margin-top: 30px;
+}
+
+/**
+* Archive Page
+*/
+
+.archive {
+  .archive-heading-banner {
+    background-color: $brand-primary-color;
+    color: #fff;
+    margin-top: -$spacing-unit;
+    padding: $spacing-unit/2 0;
+  }
+
+  .page-heading {
+    font-size: $giant-font-size;
+  }
+}

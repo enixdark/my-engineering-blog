@@ -1,0 +1,33 @@
+# Site settings
+title: My Blog tech
+email: cqshinn92@gmail.com
+description: > # this means to ignore newlines until "url:"
+  My Blog.
+url: https://blog.elixir.vn # the base hostname & protocol for your site
+
+social_media:
+  facebook: arios.maclaine
+  github:  enixdark
+  twitter: enix_dark
+
+disqus:
+  shortname: blog
+
+# Post settings
+post:
+  date_format: '%-d %b %Y'
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+paginate: 5
+paginate_path: "/blog/:num/"
+encoding: UTF-8
+gems: ['jekyll-paginate', 'jekyll-archives']
+
+jekyll-archives:
+  enabled: ['categories']
+  layout: 'archive'
+  permalinks:
+    category: '/categories/:name/'
