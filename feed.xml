@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elixir/Erlang tech blog</title>
+    <description>Elixir/Erlang tech blog.
+</description>
+    <link>https://blog.elixir.vn/</link>
+    <atom:link href="https://blog.elixir.vn/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 06 Dec 2018 14:24:34 +0700</pubDate>
+    <lastBuildDate>Thu, 06 Dec 2018 14:24:34 +0700</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Welcome Erlang/Elixir Việt Nam</title>
+        <description>&lt;p&gt;Ở Việt Nam hiện nay minh thấy có khá nhiều các cộng đồng về  tech được mở ra. Ví dụ có thể  kế  đến như cộng đồng Python, Golang, Openstack, Nodejs, .Net, Ruby, Machine Learning, etc đã và đang hoạt động phát triển rất mạnh. Bên cạnh các cộng đồng này, thì cộng đồng Elixir cũng được mở ra tuy nhiên trong vài năm gần đây ko có dấu hiện hoạt động nữa.&lt;/p&gt;
+
+&lt;p&gt;Nhận thấy điều này, hơn nữa việc chỉ có duy nhất cộng đồng Elixỉr mà ít đề  cập tới Erlang hay những gì liên quan tới Beam virtual machine do đó mình quyết định tạo ra một blog riêng, blog này mục đích sẽ hướng tới việc đưa ra tin tức cật nhập mới nhất về  Erlang/Elixir cũng như các bài viết cá nhân chia sẻ kiến thức, kinh nghiệm của nhưng ai đam mê hay có ý định tìm hiểu vể  Erlang/Elixir.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 01 Dec 2018 07:00:00 +0700</pubDate>
+        <link>https://blog.elixir.vn/welcome-erlang-elixir-vietname</link>
+        <guid isPermaLink="true">https://blog.elixir.vn/welcome-erlang-elixir-vietname</guid>
+        
+        <category>Elixir</category>
+        
+        <category>Erlang</category>
+        
+        <category>Welcome</category>
+        
+        
+        <category>News</category>
+        
+      </item>
+    
+  </channel>
+</rss>
