@@ -1,14 +1,14 @@
 # Site settings
-title: My Blog tech
-email: cqshinn92@gmail.com
+title: Elixir/Erlang tech blog
+email: elixirvn@gmail.com
 description: > # this means to ignore newlines until "url:"
-  My Blog.
+  Elixir/Erlang tech blog.
 url: https://blog.elixir.vn # the base hostname & protocol for your site
 
 social_media:
-  facebook: arios.maclaine
-  github:  enixdark
-  twitter: enix_dark
+  facebook: beamvm
+  github:  elixirvn
+  twitter: elixirvn
 
 disqus:
   shortname: blog
