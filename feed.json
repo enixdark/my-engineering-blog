@@ -10,6 +10,21 @@
 
     
     {
+      "id": "https://blog.elixir.vn/elixir-vn-blog-roadmap",
+      "url": "https://blog.elixir.vn/elixir-vn-blog-roadmap",
+      "title": "Erlang/Elixir Viêt Nam roadmap",
+      "date_published": "Mon, 10 Dec 2018 07:00:00 +0700",
+      "authors": [
+        
+          
+          ""
+          
+        
+      ]
+    }
+    ,
+    
+    {
       "id": "https://blog.elixir.vn/welcome-erlang-elixir-vietname",
       "url": "https://blog.elixir.vn/welcome-erlang-elixir-vietname",
       "title": "Welcome Erlang/Elixir Việt Nam",

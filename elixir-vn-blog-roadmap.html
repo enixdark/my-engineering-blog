@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Erlang/Elixir Viêt Nam roadmap</title>
+    <meta name="description" content="Dự kiến con đường phát triển của blog Erlang/Elixir">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://blog.elixir.vn/elixir-vn-blog-roadmap">
+    <meta property="og:title" content="Erlang/Elixir Viêt Nam roadmap">
+    <meta property="og:description" content="Dự kiến con đường phát triển của blog Erlang/Elixir">
+    <meta property="og:site_name" content="Elixir/Erlang tech blog">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://blog.elixir.vn/img/roadmap.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- CSS -->
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="https://blog.elixir.vn/elixir-vn-blog-roadmap">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS for Official Elixir/Erlang tech blog Blog" href="/feed.xml">
+</head>
+
+
+<body>
+  <header class="site-header">
+  <div class="wrapper">
+    <div class="site-title-wrapper">
+      <div class="row site-title-wrapper-inner">
+        <div class="col-sm-8 col-xs-4">
+          <div>
+            <a class="site-title" href="/"></a>
+            <span class="site-subtitle hidden-xs">&nbsp;Erlang/Elixir Tech Blog</span>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-8 text-right site-search">
+          <form action="/search.html" method="get">
+  <div class="input-group">
+    <input type="text" id="search" name="q" class="form-control" placeholder="Search...">
+    <span class="input-group-btn">
+      <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+    </span>
+  </div>
+</form>
+
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav-category">
+        
+        
+        <li>
+          <a href="/categories/news/">News</a>
+        </li>
+        
+        
+        <li>
+          <a href="/categories/videos/">Videos</a>
+        </li>
+        
+        
+        <li>
+          <a href="/categories/translation/">Translation</a>
+        </li>
+        
+        
+        <li>
+          <a href="/categories/tutorials/">Tutorials</a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="page-content">
+    
+<div class="wrapper">
+  <div class="post">
+    <header class="post-header">
+      <div class="text-center">
+        
+        
+        
+        
+        
+        
+      </div>
+      <br>
+      <h1 class="post-title text-center">Erlang/Elixir Viêt Nam roadmap</h1>
+      <div class="post-meta">
+        10 Dec 2018
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="post-tags">
+  
+  
+    <a href="/tags#elixir" class="label tags-label">Elixir</a>
+  
+    <a href="/tags#erlang" class="label tags-label">Erlang</a>
+  
+    <a href="/tags#roadmap" class="label tags-label">Roadmap</a>
+  
+</div>
+
+        
+      </div>
+    </header>
+    <article class="post-content">
+      <h2 id="intro">Intro</h2>
+
+<p>Như đã đề  cập, hiện nay cộng đồng về  Erlang/Elixir ở Việt Nam thực sự rất nhỏ một phần vì nó không thực sự phổ  biến, một phần vì các công ty công nghệ ở Việt Nam phần nhiều chưa có những công việc thực sự dùng tới Erlang/Elixir hoặc nếu có thì đa phần là trong các lĩnh vực viễn thông nơi Erlang được sử  dụng. Nếu bạn lên google và thử  tìm kiếm từ khóa Erlang hoặc Elixir, gần như kết quả hiện thị ra cực ít hoặc thậm chí không có. Trái lại so với tình hình ảm đạm ở Việt Nam thì trên thế  giới cộng đồng Erlang/Elixir đang ngày một phát triển và đặc biệt ở các nước hay các startup đã và đang sử dụng Erlang/Elixir thay thế  cho các hệ thống của họ, đơn cử  có thể  kể  tới <strong>Bet365</strong>, <strong>Pinterest</strong> là những công ty đi đầu trong việc sử  dụng Erlang/Elixir trong Production. Ngoài ra hàng năm nếu bạn theo dõi trên trang chủ của <strong>Erlang Solution</strong> bạn sẽ thấy có rất nhiều các sự kiện, các cuộc hội thảo về  chúng <strong>(Codebeam, Elixir Conf, Lambda Conf, etc )</strong>.</p>
+
+<p>Vì vậy, như đã nói tới ở bài mở đâù mục đích của việc tạo ra blog này là hướng tới việc phát triển một cộng đồng Erlang/Elixir tại Việt Nam, đồng thời giới thiệu nó rộng rãi hơn tới những bạn mong muốn tìm hiểu vê 2 ngôn ngữ này.</p>
+
+<p>Mặc dù đã có một blog Elixir Viêt Nam được mở ra tuy nhiên bản thân nhận thấy nó chưa thực sự hướng tới việc phát triển một cộng đồng cho ngôn ngữ này và xa hơn là việc phát triển một cộng đồng cho nhưng ngôn ngữ dựa trên máy ảo Beam. Hơn nữa, có thể  do sự bận bịu của các thành viên trong Elixir Việt Nam mà họ thường chỉ hoạt động bên cạnh cộng đồng Ruby và gần như page chính Elixirvn đã ngừng hoạt động. Điều này thực sự rất đáng tiếc và với bản thân là một người có niềm đam mê với ngôn ngữ này cũng như có một chút kiến thức tìm hiều trước đó, tôi quyết định tạo ra một trang blog và page riêng với mong muốn chia sẻ kiến thức, định hướng để   tạo ra được một cộng đồng cho ngôn ngữ này tại Việt Nam trong năm tới.</p>
+
+<h2 id="roadmap">Roadmap</h2>
+
+<p>Để  có thể  phát triển bất kỳ một kế  hoạch nào, việc đầu tiên bạn cần làm đó là phải có một kế  hoạch cụ thể  những việc cần làm. Với một trang blog thì việc đơn giản nhất đó là cập nhật nội dung, chia sẻ kiến thức tuy nhiên khác với một blog thông thường, hơn nữa cộng đồng Erlang/Elixir hiện tại có một khoảng cách xuất phát cực chậm so với cộng đồng Erlang/Elixir trên thế  giới và có rất nhiều các kiến thức hữu ích trước đó chưa bao giờ được giới thiệu. Vì thế  để  vừa bắt kịp cũng như không bỏ xót các kiến thức hữu ích trước đó, Blog này sẽ được định hướng và phát triển làm 4 mục chính:</p>
+
+<div class="post-image-section">
+  <a href="/img/Erlang_Elixir_roadmap.png">
+    <img alt="Erlang/Elixir blog" src="/img/Erlang_Elixir_roadmap.png" />
+  </a>
+  <small class="post-image-caption">Erlang/Elixir blog</small>
+</div>
+
+<p>Trong đó:</p>
+
+<p><strong>News</strong>: Mục này là để  hiển thị các tin tức mới nhất về  Erlang/Elixir, đó có thể  là tin tức cật nhật hàng tuần ( Elixir Weekly ), hay những thông tin về  các EVent/Conference.</p>
+
+<p><strong>Review Video</strong>: Đối với bất kỳ kỹ sư công nghệ nào mà nói thì các hội thảo luôn là nơi để  cật nhật các kiến thức, chia sẻ của rất nhiều người nổi tiếng trong cộng đồng nhất. Và thực sự những video này rất hữu ích tuy nhiên không phải ai cũng có thời gian để  tìm hiểu và xem, do đó việc tóm tắt, cật nhật các video này rất quan trọng. Mục này được tạo ra để  làm việc này.</p>
+
+<p><strong>Translation</strong>: có rất nhiều tutorial bổ  ích, rất nhiều cuốn sách hay dành cho những người mới bắt đầu hay cả những người có kinh nghiệm rồi, ví dụ như <strong>Elixir School, Erlang runtime System, etc</strong>,  tuy nhiên không phải ai cũng biết và đọc. Do đó mục này sẽ được sử  dụng như một nơi để  dịch tài liệu, dĩ nhiên là việc đọc bản gốc vẫn tốt hơn, nhưng đây có thể coi là nơi tôi dùng để  chia sẻ kiến thức của mình cho việc phát triển cộng đồng.</p>
+
+<p><strong>Tutorial Series</strong>: Nếu bạn dạo qua các blog cá nhận thì sẽ thấy có rất nhiều các bài viết chia sẻ kiến thức ứng dụng trong thực tế  của bất kỳ ngôn ngữ nào, vd bạn dễ dàng bắt gặp các bài viết cá nhân như “xây dựng một chương trình chat phần 1,2,3”, “Triển khai chương trình Node.js lên Heroku”. Do đó mục đích của mục này sẽ là vậy và sẽ thật tệ nếu nhưng blog này chỉ đơn giản là cật nhật tin tức mới nhất.</p>
+
+<h2 id="in-the-future">In the future</h2>
+
+<p>Các phần trên chính là Roadmap mà tôi sẽ dự đinh xây dựng blog, tuy nhiên để  phát triển được cần có thời gian và con người. Mặc dù không dám hứa hẹn trước rằng có thể  phát triển cộng đồng Erlang/Elixir lớn mạnh được hay không ( ít nhất hiện tại chỉ có một mình ). Tuy nhiên nó vẫn sẽ là nơi để  chia sẻ các kiến thức mà tôi học về  Erlang/Elixir và cố  gắng phát triển nội dung một cách tốt nhất.</p>
+
+
+    </article>
+    <div>
+      
+      <div class="post-tags">
+  
+  
+    <a href="/tags#elixir" class="label tags-label">Elixir</a>
+  
+    <a href="/tags#erlang" class="label tags-label">Erlang</a>
+  
+    <a href="/tags#roadmap" class="label tags-label">Roadmap</a>
+  
+</div>
+
+      
+      <br>
+    </div>
+    <hr class="section-divider">
+    <!-- <div class="panel panel-default hiring-panel">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-6">
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <br />
+    
+    <div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'https://blog.elixir.vn/elixir-vn-blog-roadmap';
+    this.page.identifier = 'roadmap';
+  };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//blog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+    
+  </div>
+</div>
+  </div>
+  <footer class="site-footer">
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 class="footer-heading">Elixir/Erlang tech blog</h2>
+        <ul class="social-media-list">
+  
+  <li>
+    <a href="https://github.com/elixirvn" target="_blank" rel="nofollow noreferrer">
+      <i class="fa fa-github fa-lg"></i>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://facebook.com/beamvm" target="_blank" rel="nofollow noreferrer">
+      <i class="fa fa-facebook-square fa-lg"></i>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="https://twitter.com/elixirvn" target="_blank" rel="nofollow noreferrer">
+      <i class="fa fa-twitter fa-lg"></i>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://blog.elixir.vn/feed.xml" target="_blank">
+      <i class="fa fa-rss fa-lg"></i>
+    </a>
+  </li>
+</ul>
+      </div>
+      <div class="col-sm-6 hiring-section">
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

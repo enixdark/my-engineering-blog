@@ -6,9 +6,60 @@
 </description>
     <link>https://blog.elixir.vn/</link>
     <atom:link href="https://blog.elixir.vn/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 06 Dec 2018 14:24:34 +0700</pubDate>
-    <lastBuildDate>Thu, 06 Dec 2018 14:24:34 +0700</lastBuildDate>
+    <pubDate>Tue, 11 Dec 2018 00:45:36 +0700</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 00:45:36 +0700</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Erlang/Elixir Viêt Nam roadmap</title>
+        <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;Như đã đề  cập, hiện nay cộng đồng về  Erlang/Elixir ở Việt Nam thực sự rất nhỏ một phần vì nó không thực sự phổ  biến, một phần vì các công ty công nghệ ở Việt Nam phần nhiều chưa có những công việc thực sự dùng tới Erlang/Elixir hoặc nếu có thì đa phần là trong các lĩnh vực viễn thông nơi Erlang được sử  dụng. Nếu bạn lên google và thử  tìm kiếm từ khóa Erlang hoặc Elixir, gần như kết quả hiện thị ra cực ít hoặc thậm chí không có. Trái lại so với tình hình ảm đạm ở Việt Nam thì trên thế  giới cộng đồng Erlang/Elixir đang ngày một phát triển và đặc biệt ở các nước hay các startup đã và đang sử dụng Erlang/Elixir thay thế  cho các hệ thống của họ, đơn cử  có thể  kể  tới &lt;strong&gt;Bet365&lt;/strong&gt;, &lt;strong&gt;Pinterest&lt;/strong&gt; là những công ty đi đầu trong việc sử  dụng Erlang/Elixir trong Production. Ngoài ra hàng năm nếu bạn theo dõi trên trang chủ của &lt;strong&gt;Erlang Solution&lt;/strong&gt; bạn sẽ thấy có rất nhiều các sự kiện, các cuộc hội thảo về  chúng &lt;strong&gt;(Codebeam, Elixir Conf, Lambda Conf, etc )&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vì vậy, như đã nói tới ở bài mở đâù mục đích của việc tạo ra blog này là hướng tới việc phát triển một cộng đồng Erlang/Elixir tại Việt Nam, đồng thời giới thiệu nó rộng rãi hơn tới những bạn mong muốn tìm hiểu vê 2 ngôn ngữ này.&lt;/p&gt;
+
+&lt;p&gt;Mặc dù đã có một blog Elixir Viêt Nam được mở ra tuy nhiên bản thân nhận thấy nó chưa thực sự hướng tới việc phát triển một cộng đồng cho ngôn ngữ này và xa hơn là việc phát triển một cộng đồng cho nhưng ngôn ngữ dựa trên máy ảo Beam. Hơn nữa, có thể  do sự bận bịu của các thành viên trong Elixir Việt Nam mà họ thường chỉ hoạt động bên cạnh cộng đồng Ruby và gần như page chính Elixirvn đã ngừng hoạt động. Điều này thực sự rất đáng tiếc và với bản thân là một người có niềm đam mê với ngôn ngữ này cũng như có một chút kiến thức tìm hiều trước đó, tôi quyết định tạo ra một trang blog và page riêng với mong muốn chia sẻ kiến thức, định hướng để   tạo ra được một cộng đồng cho ngôn ngữ này tại Việt Nam trong năm tới.&lt;/p&gt;
+
+&lt;h2 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h2&gt;
+
+&lt;p&gt;Để  có thể  phát triển bất kỳ một kế  hoạch nào, việc đầu tiên bạn cần làm đó là phải có một kế  hoạch cụ thể  những việc cần làm. Với một trang blog thì việc đơn giản nhất đó là cập nhật nội dung, chia sẻ kiến thức tuy nhiên khác với một blog thông thường, hơn nữa cộng đồng Erlang/Elixir hiện tại có một khoảng cách xuất phát cực chậm so với cộng đồng Erlang/Elixir trên thế  giới và có rất nhiều các kiến thức hữu ích trước đó chưa bao giờ được giới thiệu. Vì thế  để  vừa bắt kịp cũng như không bỏ xót các kiến thức hữu ích trước đó, Blog này sẽ được định hướng và phát triển làm 4 mục chính:&lt;/p&gt;
+
+&lt;div class=&quot;post-image-section&quot;&gt;
+  &lt;a href=&quot;/img/Erlang_Elixir_roadmap.png&quot;&gt;
+    &lt;img alt=&quot;Erlang/Elixir blog&quot; src=&quot;/img/Erlang_Elixir_roadmap.png&quot; /&gt;
+  &lt;/a&gt;
+  &lt;small class=&quot;post-image-caption&quot;&gt;Erlang/Elixir blog&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Trong đó:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;: Mục này là để  hiển thị các tin tức mới nhất về  Erlang/Elixir, đó có thể  là tin tức cật nhật hàng tuần ( Elixir Weekly ), hay những thông tin về  các EVent/Conference.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review Video&lt;/strong&gt;: Đối với bất kỳ kỹ sư công nghệ nào mà nói thì các hội thảo luôn là nơi để  cật nhật các kiến thức, chia sẻ của rất nhiều người nổi tiếng trong cộng đồng nhất. Và thực sự những video này rất hữu ích tuy nhiên không phải ai cũng có thời gian để  tìm hiểu và xem, do đó việc tóm tắt, cật nhật các video này rất quan trọng. Mục này được tạo ra để  làm việc này.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Translation&lt;/strong&gt;: có rất nhiều tutorial bổ  ích, rất nhiều cuốn sách hay dành cho những người mới bắt đầu hay cả những người có kinh nghiệm rồi, ví dụ như &lt;strong&gt;Elixir School, Erlang runtime System, etc&lt;/strong&gt;,  tuy nhiên không phải ai cũng biết và đọc. Do đó mục này sẽ được sử  dụng như một nơi để  dịch tài liệu, dĩ nhiên là việc đọc bản gốc vẫn tốt hơn, nhưng đây có thể coi là nơi tôi dùng để  chia sẻ kiến thức của mình cho việc phát triển cộng đồng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tutorial Series&lt;/strong&gt;: Nếu bạn dạo qua các blog cá nhận thì sẽ thấy có rất nhiều các bài viết chia sẻ kiến thức ứng dụng trong thực tế  của bất kỳ ngôn ngữ nào, vd bạn dễ dàng bắt gặp các bài viết cá nhân như “xây dựng một chương trình chat phần 1,2,3”, “Triển khai chương trình Node.js lên Heroku”. Do đó mục đích của mục này sẽ là vậy và sẽ thật tệ nếu nhưng blog này chỉ đơn giản là cật nhật tin tức mới nhất.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-the-future&quot;&gt;In the future&lt;/h2&gt;
+
+&lt;p&gt;Các phần trên chính là Roadmap mà tôi sẽ dự đinh xây dựng blog, tuy nhiên để  phát triển được cần có thời gian và con người. Mặc dù không dám hứa hẹn trước rằng có thể  phát triển cộng đồng Erlang/Elixir lớn mạnh được hay không ( ít nhất hiện tại chỉ có một mình ). Tuy nhiên nó vẫn sẽ là nơi để  chia sẻ các kiến thức mà tôi học về  Erlang/Elixir và cố  gắng phát triển nội dung một cách tốt nhất.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Dec 2018 07:00:00 +0700</pubDate>
+        <link>https://blog.elixir.vn/elixir-vn-blog-roadmap</link>
+        <guid isPermaLink="true">https://blog.elixir.vn/elixir-vn-blog-roadmap</guid>
+        
+        <category>Elixir</category>
+        
+        <category>Erlang</category>
+        
+        <category>Roadmap</category>
+        
+        
+        <category>News</category>
+        
+      </item>
     
       <item>
         <title>Welcome Erlang/Elixir Việt Nam</title>
