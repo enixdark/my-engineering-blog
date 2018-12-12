@@ -10,6 +10,21 @@
 
     
     {
+      "id": "https://blog.elixir.vn/erlang-otp-21.2-release",
+      "url": "https://blog.elixir.vn/erlang-otp-21.2-release",
+      "title": "Erlang OTP 21.2 is released",
+      "date_published": "Wed, 12 Dec 2018 07:00:00 +0700",
+      "authors": [
+        
+          
+          ""
+          
+        
+      ]
+    }
+    ,
+    
+    {
       "id": "https://blog.elixir.vn/elixir-vn-blog-roadmap",
       "url": "https://blog.elixir.vn/elixir-vn-blog-roadmap",
       "title": "Erlang/Elixir Viêt Nam roadmap",

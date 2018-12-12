@@ -98,6 +98,16 @@
 <script>
   window.store = {
     
+      "erlang-otp-21-2-release": {
+        "title": "Erlang OTP 21.2 is released",
+        "author": "cqshinn",
+        "tags": "[&quot;Elixir&quot;, &quot;Erlang&quot;, &quot;Release&quot;, &quot;OTP&quot;]",
+        "category": "",
+        "content": "Như vậy là phiên bản thứ 2 của Erlang/OTP 21 đã được phát hành, một số  điểm nổi bật mà ở bản release này:SSH:  Public key methods: ssh-ed25519 and ssh-ed448 added. Requires OpenSSL 1.1.1 or later as cryptolib under the OTP applicationSSL:  ssl now uses active n internally to boost performance. Old active once behaviour can be restored by setting a application variable.ERTS, Kernel:  New counters and atomics modules supplies access to highly efficient operations on mutable fixed word sized variables.  New module persistent_term!. Lookups are in constant time! No copying the terms!  New pollset made to handle sockets that use {active, true} or {active, N}. Polled by a normal scheduler!  No more ONESHOT mechanism overhead on fds! Only on Linux and BSDNgoài ra bạn có thể  xem thông tin chi tiết cật nhật đối với các module và tính năng tại erlang.orgOrigin Source",
+        "url": "/erlang-otp-21.2-release"
+      }
+      ,
+    
       "elixir-vn-blog-roadmap": {
         "title": "Erlang/Elixir Viêt Nam roadmap",
         "author": "cqshinn",
